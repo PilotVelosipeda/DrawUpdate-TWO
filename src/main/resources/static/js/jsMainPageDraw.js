@@ -2,6 +2,10 @@ function openFormEntrance() {
   document.getElementById('container_for_form_entrance').style.display = 'flex';
 }
 
+function openFormPurchase() {
+  document.getElementById('container_for_form_purchase').style.display = 'flex';
+}
+
 function openForm() {
   document.getElementById('container_for_form').style.display = 'flex';
 }
@@ -12,6 +16,10 @@ function view_password() {
 
 function view_password_entrance() {
   document.getElementById('password_entrance').setAttribute('type', 'text');
+}
+
+function view_password_purchase() {
+  document.getElementById('password_purchase').setAttribute('type', 'text');
 }
 
 //Load photo user
